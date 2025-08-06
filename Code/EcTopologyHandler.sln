@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA.Modules.EcTopologHandler", "Assembly\AA.Modules.EcTopologHandler.csproj", "{90B58E38-4E53-4288-A65A-A81B857993BD}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AA.Modules.EcTopologyHandler.Src", "Src\AA.Modules.EcTopologyHandler.Src.shproj", "{182296D1-1901-4601-A865-C589EDFCFAB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA.Modules.EcTopologyHandler.Tests", "Tests\AA.Modules.EcTopologyHandler.Tests.csproj", "{E3272242-24C1-4A6F-A814-DD3FBFA475B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA.Modules.EcTopologyHandler.xUnit", "xUnit\AA.Modules.EcTopologyHandler.xUnit.csproj", "{7E469F51-CA94-4BC1-9B5C-21FD34D96F3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90B58E38-4E53-4288-A65A-A81B857993BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90B58E38-4E53-4288-A65A-A81B857993BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90B58E38-4E53-4288-A65A-A81B857993BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90B58E38-4E53-4288-A65A-A81B857993BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3272242-24C1-4A6F-A814-DD3FBFA475B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3272242-24C1-4A6F-A814-DD3FBFA475B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3272242-24C1-4A6F-A814-DD3FBFA475B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3272242-24C1-4A6F-A814-DD3FBFA475B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E469F51-CA94-4BC1-9B5C-21FD34D96F3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E469F51-CA94-4BC1-9B5C-21FD34D96F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E469F51-CA94-4BC1-9B5C-21FD34D96F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E469F51-CA94-4BC1-9B5C-21FD34D96F3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B75515F2-D63E-4254-9569-2CE2F0189440}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Src\AA.Modules.EcTopologyHandler.Src.projitems*{182296d1-1901-4601-a865-c589edfcfab5}*SharedItemsImports = 13
+		Src\AA.Modules.EcTopologyHandler.Src.projitems*{90b58e38-4e53-4288-a65a-a81b857993bd}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal

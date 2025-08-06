@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <!-- rename DLL & deps.json -->
+    <AssemblyName>EcTopologyHandler</AssemblyName>
+    <!-- Keeps namespace intact -->
+    <RootNamespace>AA.Modules.EcTopologyHandler</RootNamespace>
+  </PropertyGroup>
+
+  <Import Project="..\Src\AA.Modules.EcTopologyHandler.Src.projitems" Label="Shared" />
+
+</Project>
