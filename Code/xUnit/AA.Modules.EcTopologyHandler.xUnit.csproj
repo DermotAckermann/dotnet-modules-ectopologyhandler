@@ -19,9 +19,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Using Include="Xunit" />
+    <Reference Include="EcTopologyHandler">
+      <HintPath>..\Assembly\bin\Debug\net8.0\EcTopologyHandler.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
-  <Import Project="..\..\Src\AA.Modules.EcTopologyHandler.Src.projitems" Label="Shared" />
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
 
 </Project>

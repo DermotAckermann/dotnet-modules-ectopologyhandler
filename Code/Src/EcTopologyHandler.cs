@@ -29,6 +29,7 @@ public static class EcTopologyHandler
     public static string CreateJson(EcTopologyData topologyData)
     {
         var root = new EcTopologyDataRoot { TopologyData = topologyData };
+
         return JsonSerializer.Serialize(root, Options);
     }
 

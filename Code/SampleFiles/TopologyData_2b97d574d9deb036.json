@@ -1,90 +1,75 @@
 {
-    "meta_data": {
-        "scheme": "aa_json_envelope",
-        "scheme_version": 1,
-        "data_content": [
+    "topology_data": {
+        "topology_hash": "dsfdjjg3453",
+        "topology": [
             {
-                "key": "topology_data",
-                "format": "catloggereasy_ethercat_topology_data",
-                "version": "1.0"
+                "name": "SubDevice_1001 [EK1100]",
+                "vendor_id": 2,
+                "product_code": 72100946,
+                "input_data_info": null
+            },
+            {
+                "name": "SubDevice_1002 [EL3602]",
+                "vendor_id": 2,
+                "product_code": 236073042,
+                "input_data_info": [
+                    {
+                        "name": "SubDevice_1002 [EL3602].AI Inputs Channel 1.Error",
+                        "bit_offset": 6,
+                        "bit_length": 1,
+                        "type": "BOOL"
+                    },
+                    {
+                        "name": "SubDevice_1002 [EL3602].AI Inputs Channel 1.Value",
+                        "bit_offset": 16,
+                        "bit_length": 32,
+                        "type": "DINT"
+                    },
+                    {
+                        "name": "SubDevice_1002 [EL3602].AI Inputs Channel 2.Error",
+                        "bit_offset": 54,
+                        "bit_length": 1,
+                        "type": "BOOL"
+                    },
+                    {
+                        "name": "SubDevice_1002 [EL3602].AI Inputs Channel 2.Value",
+                        "bit_offset": 64,
+                        "bit_length": 32,
+                        "type": "DINT"
+                    }
+                ]
+            },
+            {
+                "name": "SubDevice_1003 [EL4134]",
+                "vendor_id": 2,
+                "product_code": 270938194,
+                "input_data_info": null
+            },
+            {
+                "name": "SubDevice_1004 [EL2004]",
+                "vendor_id": 2,
+                "product_code": 131346514,
+                "input_data_info": null
+            },
+            {
+                "name": "SubDevice_1005 [EL3102]",
+                "vendor_id": 2,
+                "product_code": 203305042,
+                "input_data_info": [
+                    {
+                        "name": "SubDevice_1005 [EL3102].Channel 1.Value",
+                        "bit_offset": 104,
+                        "bit_length": 16,
+                        "type": "INT"
+                    },
+                    {
+                        "name": "SubDevice_1005 [EL3102].Channel 2.Value",
+                        "bit_offset": 128,
+                        "bit_length": 16,
+                        "type": "INT"
+                    }
+                ]
             }
-        ],
-        "writer_app": "catloggereasy",
-        "writer_app_version": "1.0.0"
-    },
-    "data": {
-        "topology_data": {
-            "topology_hash": "dsfdjjg3453",
-            "topology": [
-                {
-                    "name": "SubDevice_1001 [EK1100]",
-                    "vendor_id": 2,
-                    "product_code": 72100946,
-                    "input_data_info": null
-                },
-                {
-                    "name": "SubDevice_1002 [EL3602]",
-                    "vendor_id": 2,
-                    "product_code": 236073042,
-                    "input_data_info": [
-                        {
-                            "name": "SubDevice_1002 [EL3602].AI Inputs Channel 1.Error",
-                            "bit_offset": 6,
-                            "bit_length": 1,
-                            "type": "BOOL"
-                        },
-                        {
-                            "name": "SubDevice_1002 [EL3602].AI Inputs Channel 1.Value",
-                            "bit_offset": 16,
-                            "bit_length": 32,
-                            "type": "DINT"
-                        },
-                        {
-                            "name": "SubDevice_1002 [EL3602].AI Inputs Channel 2.Error",
-                            "bit_offset": 54,
-                            "bit_length": 1,
-                            "type": "BOOL"
-                        },
-                        {
-                            "name": "SubDevice_1002 [EL3602].AI Inputs Channel 2.Value",
-                            "bit_offset": 64,
-                            "bit_length": 32,
-                            "type": "DINT"
-                        }
-                    ]
-                },
-                {
-                    "name": "SubDevice_1003 [EL4134]",
-                    "vendor_id": 2,
-                    "product_code": 270938194,
-                    "input_data_info": null
-                },
-                {
-                    "name": "SubDevice_1004 [EL2004]",
-                    "vendor_id": 2,
-                    "product_code": 131346514,
-                    "input_data_info": null
-                },
-                {
-                    "name": "SubDevice_1005 [EL3102]",
-                    "vendor_id": 2,
-                    "product_code": 203305042,
-                    "input_data_info": [
-                        {
-                            "name": "SubDevice_1005 [EL3102].Channel 1.Value",
-                            "bit_offset": 104,
-                            "bit_length": 16,
-                            "type": "INT"
-                        },
-                        {
-                            "name": "SubDevice_1005 [EL3102].Channel 2.Value",
-                            "bit_offset": 128,
-                            "bit_length": 16,
-                            "type": "INT"
-                        }
-                    ]
-                }
-            ]
-        }
+        ]
     }
 }
